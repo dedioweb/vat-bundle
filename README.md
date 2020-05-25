@@ -59,7 +59,7 @@ class MyController
     {
         $rates->getRateForCountry('NL'); // 21.00
         $validator->validateVatNumber('NL123456789B01'); // false
-        $countries->isCountryCodeInEU('US') // false
+        $countries->isCountryCodeInEU('US'); // false
         $geolocator->locateIpAddress('8.8.8.8'); // US
     }
 }
